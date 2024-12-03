@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>HTT Support</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="/Test_api/images/logo.png"
+      style="border-radius: 50%"
+    />
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+    />
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="/Test_api/css/bootstrap.css" />
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/Test_api/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="/Test_api/css/responsive.css" rel="stylesheet" />
+    <!-- chatbot style -->
+    <link href="/Test_api/css/chatbot.css" rel="stylesheet" />
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Loading Spinner -->
+    <div class="loader" id="loader">
+      <img src="/Test_api/images/loader.gif" alt="Loading..." />
+    </div>
+
+    <!-- Header Section -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>HTT Support</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="s-1"> </span>
+            <span class="s-2"> </span>
+            <span class="s-3"> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div
+              class="d-flex ml-auto flex-column flex-lg-row align-items-center"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"
+                    >Trang chủ<span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#service">Dịch vụ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Chatbot Section -->
+    <section>
+      <button class="chat-toggler">
+        <span class="material-symbols-outlined">mode_comment</span>
+        <span class="material-symbols-outlined">close</span>
+      </button>
+      <div class="chatbot">
+        <h2>Chatbot</h2>
+        <a class="close-btn"
+          ><span class="material-symbols-outlined">close</span></a
+        >
+        <ul class="chatbox">
+          <li class="chat incoming">
+            <span class="material-symbols-outlined">smart_toy</span>
+            <p>Chào bạn! Tôi có thể giúp gì cho bạn?</p>
+          </li>
+          <li class="chat outgoing"></li>
+          <div class="chat-input">
+            <textarea placeholder="Nhập câu hỏi ... "></textarea>
+            <span id="send-btn" class="material-symbols-outlined">send</span>
+          </div>
+        </ul>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact_section layout_padding" id="contact">
+      <div class="container">
+        <div class="heading_container">
+          <h2>Liên hệ</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <form action="">
+              <div>
+                <input type="text" placeholder="Tên" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div>
+                <input type="text" placeholder="Số điện thoại" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Tin nhắn" />
+              </div>
+              <div class="d-flex">
+                <button>Gửi</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="map_container">
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Da+Nang+Vietnam"
+                  width="600"
+                  height="300"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 100%"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- info section -->
+    <section class="info_section layout_padding">
+      <div class="container">
+        <div class="info_contact">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABBpJREFUaEPtmUvoV1UQxz/fkB6KRhYk2cNskUE+qdxUkLhRSLPooSbRSnwsIpAiQssKIQIXPQiDiOhBQZFQ2c5FRYWYZEqhWBEZQkqlVrZpuoNHEf3/zplz7/0jggM//oszM2c+d+6dmXP+4gwXneHxcxbgdGewtwyY2fnA7cCdwCTgkvRzxv3p9x3wHvCRpCN9wHcGMLNLgaeBxcAFwaD+Bl4HVkv6LWgzpFonADNbC6wC/Om3EQdZJ8kfQCtpBWBmFwObmlfhxla7nmq0GVgg6c9af9UAZnZdCv6q2s0K+ruB2ZJ+rvFbBWBm44GvAP87HOIQMyX9HnUeBjCzMc0T+qypIpOjzlvqfQHcJunfiH0NwIvA8ojTHnSelPRExE8IwMwmAnsiDgF/h9/xWt98mN8km2mpR9wDXB7wcxi4WpL3j6xEAd4CFhZ8eQV5QNLGnJ6ZOcSrwKiCv/WSHu4MkN79Unn7x0uqpJ2lDX3dzG5KxSCnfkCSd/NuGTCz+4C3C36WSHqjtNmJ62b2ELC+YHOLJC8cA6X4CpnZm8CijI/tkqbWBH9M18z2ApdlbJ+V9EhXgC3ADRknKyV5haoWM3sGeCxjuEnS3K4APwITMk6ukfRDdfRHv4WbgU8ztjskZftO5BX6CxiZ2WRkk2b/iKvFzMYCBzKGByVd2DUDPrefl3EyRtKh6uiPZsC7e67CHZGUHdEjGdgH+Mw/SKZI+rYlwIymwW3N2P4qKTt3RQA8uOszm6yS9FxLgMeBpzK22yQ55ECJAPjJaUnGh0+QkyT9VwNhZiPSeHJlxm6DpKVdAVY0Z9sXCsE9KOm1SoCVwPMFm2KDjGTAS6iX0px4pfJRwg/tRTGzmcCXRUW4SNIfnTLgxmbmhxifX3Li1eR+SR/mlMzMh8JXAsPcB5IWlCCLGUgA/h6+XHKW1j1bPk5/3FyxbAfOTUVgPnB3YXQ4cYs5kj4p7RkF8Ebm5XR0yWFP67skXRvxFQJIWSiVvMh+UZ27JL0fUa4B8G68qzmM5MpeZM+SzmZJs0pKx9bDACkLc9K7HfXfRm+ipFLVO+63CiBBRI6XbQJ3mxWSXqoxbgPgE+TXQN8XWxsl3VETvOtWA6Qs+IzuB53clFoTizdAb4TeEKukFUCC8Jr+btVuQyv71cl0Sb+08dUaIEGsaf6GLqAGBOcHIT+450bqLFcngAThA5kPZrVizbc0rzR6lJx2BkgQ64BHS5udtL5MUnQ8Gei6F4AE4femkdsJP6Iujnba0kPpDSBB+KTpfWKQHATmSvq8FFh0vVeABHFvgjjnpCB+aq4TfcL8PhpcRK93gARxaxqpx6UgdgCzuv5DbyigYQFIEFekg4tfsa9t06ROWwYiG/elM2wZ6CvAkp+zAKUnNNzr/wPgSjBAxfxHEAAAAABJRU5ErkJggg=="
+                />
+                <span> Đà Nẵng, Việt Nam </span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAz9JREFUaEPtmUvIjmkYx39/s5OzHEqmSJJySIMiNYX5+kQ2FmThEJJDsyAzCwvTZME0FoyFcd6wIjlGopSVmJoUinJYIqVYurxXHnnjfe/D8zy+t6++e/teh//vvu7Tc72ilw/1cv30AXS6gn0V6DUVMLOBwCZgOrBb0v1Oi/f8SUvIzMYA14DJheh3wDxJ/3UaIgpgZlML8aO+EvsamC3pSSchggBm1gWcBfq3EfkcmCHJYToy2gKY2WrgeIIqX0a+nHxZ9fgIAbwChicquibJq9XjIwRgmWpOSVqZ6VPZvE4AF7NH0u+VVWUECAG8Bfzszx1bJB3MdSprHwJ4BEwsGfgnSXdL+ma5hQCuAr9kRftifEjSxpK+WW4hgAPAlqxoX4wXS7pU0jfLLQSwDjicFe2T8R+SdpXwK+USApgEPMiMuk3SvkyfSuaxp4Q/FcYmZtgq6Z9E29rMYgAuaHMkm1946yQdq01VRqAYwM/AzUi89ZKOZOSs1TTlOe3P5fGBrEskXaxVVUawFIDtwF+BmB15A33WkwIwAHgGDAtAjJP0NGPiajONAngmM9sJ/BnIel3SwhxVZrYEWNWYmP2SbuX4NtumAngVXgBDAon+luTLLTrMbD3wb2H4AfCDoNQplgRQVCHlZv5N0t4QgZmtAVqJ9U6HVzprJAMUEJeB7kiGg5JavqHMbDlwOuB/srGX/FM2eeQC+Eb2b+AfIxnuNTb+Gkn/f7Yzs0WNBsD5xl76IeJ7vZFjqaT3KRRZAEUVvLF1O9CpaM7rl+BR4A2Q8zr1b4luSS9jENkABYTP5gWgXyxBhd/96J4f6zuVAigg/Ag8UUFgiqtXrkvSnXbGpQEKiKWNXum5FCUVbLzfNK1dJSoBFBBzGi3GK8CgCiJjrm0/USsDFBATiuU0N6ak5O/LJJ1p5VsLQAHhsTZ4bwgYXFJoKzc/yRZI8hv7m1EbQNN5Pxrw5tavNUA8LDrg3qNqOWoHaAIZCewA1gJDS8D4CTRL0uOQ73cDaE5qZguAFYC/QEckwvgdcCNm2yMAX8FM8TUN+Iaf2eZZslZSSms/7S+m2Cx08vcer0DdsH0Adc9obry+CuTOWN32HwFqLd8xx/BvEAAAAABJRU5ErkJggg=="
+                />
+                <span> +012334567890 </span>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAsRJREFUaEPtmU2oTGEYx39/X5GvIhsbFsrCAlko7Kx8lK1yF4oddWPh45YkxWXhpthRFpS9sLJzlYWwoJQFGxu5kkS+HvNM59Q5M+fMzJn3nDszOm9Ns5jzPs//43me8/aOGPGlEcdPTWDQDtYO1A4EKvB/lpCZ7QNOABuA5YEihW7/ArwCLki63xqszQEz2wvcC81a0f49kh4kY2cRmAa2VQQgNOwTSdu7EfgKLAnNVNH+GUkruxGwluQvgY0VAeoWti23pFTVZJVQK4EFwBngNDCvW8aSfv8NXATOAz9TihclEDM2M3fhTjSZSsKZGcYnzgFJrj5mlhK0sAPJDWY2HzgXjdi5JbP4A1xuYD4r6Vccu1QCiaBbIjfWl0TiTaT6s9Z4wQSAzZJeZAE1M6/TU4EkJiV5f7UtM9sEPA/qAcAbatIbSlKqoaIa3QrcbnzWFSTyFhiT9DRD9XhwuDipwVG4BxLBO9m80F/1wDgwpwuRv8DVxnSZkPQjA3zH8gwh4Lm80aZ8rOYkdzfuAmtzSLwD9ueo7iL42DzW+M4dEKEEYlxu/0FJfuxILTNbBFwCjjYmVvye8VF4DTgp6XvGHj8e3OqlDMsi0Cx/4Lo3saRvOaC8N3x5rWeRXRz115EE2Y4VWCaBONF74JCkRxkkHCA5BHcCN4E1RZq/CgJx/hvAcUl+GMxdZrYUuAIcLgI8frZKAp7jgwOT9DALnJntApzo6n7AR24WPsz1k8trf1zSTLNZzFZEo3Osn2DJPVU7kMz1MVEmrvqqUPCz6UAZWDNjzKYDlZCoCVQia4GgtQMFxKrk0dqBSmQtELQXBz4B/uYcxtXTxdZjIHV9N0RMpiXtSB0tWsEN+eXu7taDYub/AxGJiegSa9mAHfgMvI6u11M3082z0YDBBaevCQRLGBigdiBQwODttQPBEgYGGHkH/gHNBBlAbq4cagAAAABJRU5ErkJggg=="
+                />
+                <span> demo@gmail.com </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-lg-9">
+            <div class="info_form">
+              <form action="">
+                <input type="text" placeholder="Enter your email" />
+                <button>Đăng ký</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <div class="info_social">
+              <div>
+                <a href="">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAA7NJREFUaEPtmVmoTlEUx3+XB0OEDJnK/GIoIZQMRZEMkSgpijIls8hQxiJTMiRjSZGShBQimV7IE5KxzENkiCecv87Vdz9nn7POPufrUne/3Xv2Gn57rbv22uuW8Z+vsv/cf6oAKjuCeUagJTAE6A8MAPRz4XoW/P5S8P0icBZ4kQd8VoBWwDxgKNA+pUP3gTPAJkBwXssXoDawDFjiZfVvoeXAGh9dPgAjgV1AMx+DMTJPgcnAhTR60wDo1PcD49IY8Ni7G5hmlbMCNALOAV2tijPu0x/7MOBrkh4LQC3gCtAtSVnO33Vgqmo/4vRaAI4BY3JyTqXzYehUA6Aa0DlG98YgCguzAMwBtmR0Xie5CrgNfInQ1QFQSXWt4cAp18e4CKjK6LSUQj5Lzk4BjiYINwVexuzRt7bA96g9cQCHgAk+nocyg4wlMQlA6nTnrE0DoLDeC3PUh+EkoPvCsiwAH4AWwLdiha4I7ABmWKw79sTmbZGMBUAiM4GdFgDl/BugTgYAybpq+MowNZXXadYtoLsFQKE/kUZz0d53QGOHvHqndRl0K40qdLFRKbQZmJvBiHqa1g75mxkvRBWVw4W6owAuB9Wjb4kAHsfAWUzqcOcnAbwF1Pv4rrgIPAH0hvBdp8Me6Y98VAR++moP5UoJcAfolBSBfxngU9Da1EsC+JyihOqPskfGiKn31wPJslSaK5T3qBRS/2Ot0XkAbAVmW7wPe7MKb+8ogOvB1KC3UWEeAJpQDDbauxY8rPokpdBxYJRRYR4Aj4A2Rnt6m4xNAtCYRKMOy8oKUMPVJjuMK9W2JQEkPTAK5fUQmVpkTH37DYcDSs2aBd90Jxy0nFS4R5HSXRJ7D+jjA6BdCsWFW0t1D9wFOhb75Gqnl/oOmoBSASyISm0XQF3gtedzshQAH4HmaR40ipQmAhUaJ2NKlQJgdTDJWBFlP+5N3CQoWeo9GhodL9+WN8BzoEtw2elZ+ddKmgsNBM5XIoCGWv2Aqy4fkgAktx5YlAIizwg4pxHl/lgAqgNHUkzn8gLQIFlzpdju2AIgWEGoxRhhiEQeACbn5YsVoNzvA8FNOCkBIivAdmCW4aB+b0kLIJnRwD6gvsOIL4BGORPD/59Z/fcCkHINo9TwjY+w5AOwN2jqFgcn/97sebjRJwKFNtRcybBOTp2llhVAw989wIbgPzKv0jqepgpZdGua1xPoFfb20x1CGg1qtKKHibO2WwzmDZDGZq57s6ZQrs74KKsC8Dm1PGV+AXSuqzEZLJqmAAAAAElFTkSuQmCC"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAArJJREFUaEPtmM2rTlEUxn935CsDA0K5ZWBADAwoI8XAQKEoJUlxpRSROfkDkGTgK4Mb5WNAykQGBgxvl2Jwi5LvkZLPCefRPrXvsc+7937Pvue8t/aqd/B21trrefZaZ51n7yGmuQ1Nc/xkAl1XMFcgV6DhDuQWariBjcN9FVgIzAeeN87U3wKrgE/A57rwOgJrgKvAShP4ChgBHvWHIzpqI3AJWGoix4E9wLPqSi4CCr4HzHakPQGcioYTF3ASUJ6qfQU2Fb+n9gMXgfvA5h45HwC7gC9xuLze84AbBmSd801gp4+Aem6BJ90bYBsw5oUV5rAWuFW07bDH/S2wxEfgT1jOf17HgDMR/i7Xo8DpiDUmdY2rhWIIKK/el92AejTG5gKjwJaYIJgsQFMQUP7XRTttjRi3q4E71pSJ4ZC8AmXyn8AR4KIHzUHgLDAjBrXlO2UEyhzXgQPAtwrAOcA1YEefwMuwKSegRBOmpV6arMuBu8CyhuAV3goBJfoB7AdmAueBWQnAt0ogEd7/lmmtAplAzQ4kqcALYEXiLQ5dMwkB6ZHjZu6n4CE5op80ls+SEFgEfDQyQHJAsqAfk/yQDJEcWVycOd4FLJKEgJJ9MMl06NCM1+kpxqRktxsZorjOCCi5ZIHkgWRCiF0ApEJ/W86dEihxSCZILkg2uEzyYm9xVL3teDgQBIRLckEtJflgmy4G1DKSGS4bGAICJ9lw2Rw99f8KcAj41aO/WiVQTiFfv+8zoDWpfKYrnHIw9PJNPoV8wEKft1oBe4yGAvT5ZQLlDoUc6ge6AjqI6BDSy0JfYl/b2M+15ntPwPfqN8Z1K/EEWNcBgZB34DGw3sbmIiBtcw7YUHM/qvi2K6Av+EPgcFWx+q7XY1qgE99MoJNtt5LmCuQKNNyB3EINN7Bx+F9qT38xwLlCgwAAAABJRU5ErkJggg=="
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAjtJREFUaEPt2c3LDVEcB/DPQyHKxl6JekQ2FmQhL+EpK++KhX+ALCwsWHgrJQv5C/TEwvuGBVHY2igRsbGTsvSacE/Nrel05t65njsz92Zmd2fmnt/3+/t+53zPmZkw5sfEmOPXEmhawVaBUVZgD85hsmGQb3ESt1I4elnoFVY0DL5b/jVWDkrgz4iA78JINruXAi2BISs4FAU+4Dge4ze24gIWDxlsabsPaqGNeBqNvjkjVDWHGSvwA/MSKGfjC+ZWzKAyArM6tvqGOaNOIODbgGfjaqGA+z22411GIgTdPSypuPth+BlbKI/xZfZjVQ3A2yDLN/kmwrokfyzH/tyJs1lG5O85jEV4kuVGUPAzlmJtx5IHO9Pzpj5qDsVCexOrwp24kyueKvSiM82ex/UeINfhUYfg/IJ7KiOwA3f7EAizVxyAKZxHcLluArtwuw+Bss966P4nLEj8oTIFylioi2c1FuIj3hSweoBtdRIoY6GA5xoO5IAdwnQC6EUcGzUCIfzuR6C+ZzPT1+j8UVyqk0AZCxV1dQ2eR2CDMldGjUBsny6+KTyMwIaXCSFv4qPRh/hqFlYxqFSuVEpgX6I7u6NwC/uCnxHSIgIhwW/UqUBLIOp2q8Cgm/rWQq2Fog4MaqFTiWXxepzJjRtedv2K6pzAlkQ4nc42OflLYekd6lQSZAULyFpODyWJa0FaUOT/IzD2HzjCoipsxJc16Rv88yemhnGXK99+Zi3Xp+ruahWorrflRh57Bf4CJZudMbJbNJwAAAAASUVORK5CYII="
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABCRJREFUaEPtmWfIjlEYx392NmXvERn5ICsrGZFRfBDlg1GS7BUlKyNlJzJKRpSUKJRkhSSKD/beITP7g3X/69y6e9zPfc55n/d5X289V70f3udc5zrX/1z73MUo4lSsiOtPDkBhWzBngaJogTrACGAQ0ASonyGIJ8AD4AiwG3jpI8/HhcoCS4GpQAmfQzx4fwJrgQXAN5d9rgD6AluBhi5C84HnMTAGOGWT5QKgG3DWJihL6z2AM0mybQDkNjcL8OZTdX0EtEpyJxuA9cDkLN2uq9g1wMx0zEkA5O+6gWzTZuAY0AkYB1SNObAB8DROkSQAE4CNWdZeqVPpOKRlwNyYM8cDW3wBbA8sMDoDAF+Au0BFoGkaOanuMQQ4EMO7DRjrC0DR390TwDNjNd3s1cjeyoGbdAkySi9gVuR3FbE2wEfz2/Eg4/WOOfM00NMXgHKxfM+VVOTmOzC3BnYC7QyvLLUH6ApoLY4emqr/z1pSDLxLE1BxB0yKiZfikfSry/iVsnGdqeoOmHkLVPO1wG8XycBiYGGEV/6u2BkGNDe/3wry+T5gB6DbDOli0AN1cDhHLiY3dLaAep0fDoLlw1I45B1sfFzVO47ky6uBw2ZRe28ApS1nfTbJwBmAGF0soCK3wUhtbHzbFvjqb0ZF8vreoNoPtwD4BFTysUA5QMGVRAJYPajU8k/RohRXSto7D1DOFynHb8pvC5QPXEFmS6LbQIsIw7WELJIq53IkCzUL5os7lrN0mRV8LFAG+G4Ret6kPrHVM22H65zwFdAlhfQCqJVwnuaEkj4AlAK1KYkuAR0NgwDcdwjGUF6qT2uvprskik35SXXAFsSvUm5NbtHWokS4fAHobP5RevzgsM8LgIsFdKZiQLEgUhMWBqZNn9mBC600TGoRTlo2KE2X8nEh8dosECq93AiuHVReNYD9LMqoT9K4+NrwzTC1IWmb4lHD1T+UiQtJmJSoEZGq2Xka0D+NNipgaiFOmPUqwJWgQjeygPauA64WEN+KYOSbE1FAgEYCao1bGkuq2h40hS6sG9oiawyw+RvwxtScfLdAKHC6uVkHXf6yqKWQ+7iQJkNVei8A6u3rukg3PApgVVgbKfB3OTZxoaw8tdPK8+1t2qSsPze90SHgesxeDeerPGWKXV2rZmYvC8hn1V3mldSK3DMFsaap1nmVtR8Y6gvAJb3lVSHffXrO1BOPlwVU2lXi/wdSmtVU5wVAzOr1JxYyAumQ9nHN9jKnFlZPi2rWCoOUFJS10rb2NgBSWq3B0cLQHugTqdqxKrgA0MaBQeepJ8CCsoT8Xc+MenJMJFcAEqIBZAkwJcsfONQr6X0pXz9wRG8h/MQkq+hVIdNPTHoB1HSnv3PBW9F7261H130s4CO3wHhzAArsqtMclLNAzgIZ3sAfgdSxMSsiTpcAAAAASUVORK5CYII="
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="container-fluid footer_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-9 mx-auto">
+            <p>&copy; 2024 | HTT - All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/Test_api/js/jquery-3.4.1.min.js"></script>
+    <script src="/Test_api/js/bootstrap.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js"></script> -->
+    <script src="/Test_api/js/chatbot.js"></script>
+    <script src="/Test_api/node.js"></script>
+  </body>
+</html>

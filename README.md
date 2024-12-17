@@ -19,7 +19,7 @@ This chatbot is built using the ChatGPT API, which provides a powerful and flexi
 * Manage requests from users and connect to ChatGPT API
 * Ensure high performance and data security
 # 🤝 Contributions
-* Contributions are always welcome! Please open an issue or send a pull request if you have an idea for improvement.
+* Contributions are always welcome! Please open an issue or send a pull request if you have an idea for improvement!
 
 
 
